@@ -238,8 +238,8 @@ input {
 }
 
 .card-heading > h2{
-  margin:0.3rem;
-  padding:0.3rem;
+  margin:0.3rem 0;
+  padding:0.3rem 0;
 }
 
 .card-content {
