@@ -225,6 +225,7 @@ input {
   max-width: 250px;
   height: auto;
   align-items: flex-start;
+  text-align:left;
 }
 
 .card.shadow {
@@ -234,6 +235,11 @@ input {
 .card-heading {
   padding: 0.4rem;
   margin: 0.4rem;
+}
+
+.card-heading > h2{
+  margin:0.3rem;
+  padding:0.3rem;
 }
 
 .card-content {
