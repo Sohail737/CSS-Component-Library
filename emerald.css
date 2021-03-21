@@ -260,8 +260,6 @@ input {
   background-color: var(--primary-color);
   border-radius: 100%;
   width: 1em;
-  top: 14px;
-  right: 14px;
   padding: 0.2rem;
   text-align: center;
   color: var(--white);
