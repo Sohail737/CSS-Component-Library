@@ -3,7 +3,9 @@
   --secondary-color: rgb(147, 197, 253);
   --white: rgb(255, 255, 255);
   --grey: rgb(175, 168, 168);
+  --light-grey:rgb(218, 218, 218);
   --black: rgb(0, 0, 0);
+  --green:rgb(19, 136, 8);
 }
 
 body {
@@ -49,8 +51,8 @@ hr {
 /* Buttons */
 
 .btn {
-  padding: 0.4rem;
-  margin: 0.4rem;
+  padding: 0.5rem;
+  line-height: 1.5;
   text-transform: uppercase;
   outline: none;
   border-radius: 0.3rem;
@@ -74,6 +76,7 @@ hr {
 .btn.disabled {
   pointer-events: none;
   color: var(--white);
+  background-color: var(--light-grey);
 }
 
 .btn.outline {
@@ -196,13 +199,26 @@ input {
 
 .input {
   padding: 0.5rem;
-  margin: 0.5rem 0;
+  margin:0;
   outline-color: var(--primary-color);
+  line-height: 1.5;
 }
 
-.input-label {
-  padding: 0.5rem;
-  margin: 0.5rem 0;
+.input-group{
+  display: flex;
+}
+
+.group-label{
+  color:var(--white);
+  background-color: var(--primary-color);
+  padding:0.5rem;
+  margin:0;
+}
+
+.input-group.input{
+  flex-grow:1;
+  border-color: var(--primary-color);
+  outline: none;
 }
 
 /* Card */
@@ -264,13 +280,27 @@ input {
 .badge {
   position: absolute;
   background-color: var(--primary-color);
-  border-radius: 100%;
-  width: 1em;
-  padding: 0.2rem;
+  border-radius: 50%;
+  width: 1rem;
+  padding: 0.1rem;
   text-align: center;
   color: var(--white);
   font-weight: bold;
   border: 1px solid var(--white);
+  line-height: 1.5;
+  font-size:x-small;
+}
+
+.badge.online{
+  width:0.5rem;
+  height:0.5rem;
+  background-color:var(--green) ;
+}
+
+.badge.offline{
+  width:0.5rem;
+  height:0.5rem;
+  background-color:var(--grey) ;
 }
 
 .card-sub-heading {
@@ -308,4 +338,22 @@ input {
   margin: 0.5rem;
   text-decoration: none;
   color: var(--black);
+}
+
+/* Avatar */
+
+.avatar{
+  border-radius: 50%;
+  width:5rem;
+  height:5rem;
+}
+
+.avatar.small{
+  width:3rem;
+  height:3rem;
+}
+
+.avatar.large{
+  width:7rem;
+  height:7rem;
 }
