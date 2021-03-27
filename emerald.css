@@ -200,7 +200,7 @@ input {
 .input {
   padding: 0.5rem;
   margin:0;
-  outline-color: var(--primary-color);
+  outline-color: var(--grey);
   line-height: 1.5;
 }
 
@@ -209,15 +209,16 @@ input {
 }
 
 .group-label{
-  color:var(--white);
-  background-color: var(--primary-color);
+  color:var(--black);
+  background-color: var(--grey);
   padding:0.5rem;
   margin:0;
+  letter-spacing: 0.03rem;
 }
 
 .input-group.input{
   flex-grow:1;
-  border-color: var(--primary-color);
+  border-color: var(--grey);
   outline: none;
 }
 
