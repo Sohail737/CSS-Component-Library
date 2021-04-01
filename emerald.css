@@ -270,12 +270,6 @@ input {
 }
 
 .card-content {
-  flex-grow: 1;
-  margin:0.5rem
-}
-
-.card-content.product {
-  flex-grow: 0;
   margin:0.5rem
 }
 
@@ -303,7 +297,6 @@ input {
 }
 
 .card-img.product{
-  flex-grow: 1;
   height: auto;
   flex-basis: 75%;
 }
