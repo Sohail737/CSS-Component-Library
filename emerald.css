@@ -245,6 +245,17 @@ input {
   text-align:left;
 }
 
+.card.horizontal{
+  flex-direction: row;
+  max-width:30rem;
+  max-height: rem;
+}
+
+.card-heading-content-horizontal-container{
+  display: flex;
+  flex-direction: column;
+}
+
 .card h2,p{
   margin:0
 }
@@ -282,6 +293,13 @@ input {
   margin: 0.5rem;
   /* padding: 0.4rem; */
   position: relative;
+}
+
+.card-img.horizontal {
+  margin: 0.5rem;
+  /* padding: 0.4rem; */
+  position: relative;
+  max-width:10rem;
 }
 
 .card-img.product{
@@ -328,6 +346,10 @@ input {
   font-size: 1.2rem;
   font-weight: lighter;
   margin:0.5rem 0;
+}
+
+.card-footer.horizontal{
+  align-self: center;
 }
 
 /* Lists */
