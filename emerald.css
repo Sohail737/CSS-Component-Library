@@ -247,8 +247,8 @@ input {
 
 .card.horizontal{
   flex-direction: row;
-  max-width:30rem;
-  max-height: rem;
+  min-width:100%;
+  height: auto;
 }
 
 .card-heading-content-horizontal-container{
@@ -296,11 +296,6 @@ input {
   max-width:10rem;
 }
 
-.card-img.product{
-  height: auto;
-  flex-basis: 75%;
-}
-
 .card-img > img {
   width: 100%;
 }
@@ -323,6 +318,7 @@ input {
   font-size:x-small;
 }
 
+
 .badge.online{
   width:0.5rem;
   height:0.5rem;
@@ -343,6 +339,7 @@ input {
 
 .card-footer.horizontal{
   align-self: center;
+  
 }
 
 /* Lists */
