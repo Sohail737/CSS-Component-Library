@@ -254,6 +254,7 @@ input {
 .card-heading-content-horizontal-container{
   display: flex;
   flex-direction: column;
+  align-self:center
 }
 
 .card h2,p{
@@ -275,7 +276,7 @@ input {
 
 .product-detail{
   display: block;
-  margin:0.5rem;
+  margin:0 0.5rem;
 }
 
 /* .card-content > p {
@@ -293,7 +294,8 @@ input {
   margin: 0.5rem;
   /* padding: 0.4rem; */
   position: relative;
-  max-width:10rem;
+  max-width: 13rem;
+  line-height: 0.5;
 }
 
 .card-img > img {
@@ -339,7 +341,7 @@ input {
 
 .card-footer.horizontal{
   align-self: center;
-  
+
 }
 
 /* Lists */
@@ -394,4 +396,22 @@ input {
 .avatar.large{
   width:7rem;
   height:7rem;
+}
+
+
+/* Utility Classes */
+.margin-top{
+  margin-top: 0.5rem;
+}
+.margin-right{
+  margin-right: 0.5rem;
+}
+.margin-left{
+  margin-left: 0.5rem;
+}
+.margin-bottom{
+  margin-bottom: 0.5rem;
+}
+.margin{
+  margin:0.5rem;
 }
