@@ -254,7 +254,8 @@ input {
 .card-heading-content-horizontal-container{
   display: flex;
   flex-direction: column;
-  align-self:center
+  align-self:center;
+  flex-grow:1
 }
 
 .card h2,p{
