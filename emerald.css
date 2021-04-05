@@ -97,9 +97,9 @@ hr {
 }
 
 .btn.outline.disabled {
-  color: var(--black);
+  color: var(--grey);
   border: 1px solid var(--grey);
-  background: transparent;
+  background-color: grey;
 }
 
 .btn.text {
@@ -131,6 +131,7 @@ hr {
 
 .btn.round.disabled{
   background-color: var(--light-grey);
+  color:var(--grey);
   pointer-events: none;
 }
 /* .cta-container {
