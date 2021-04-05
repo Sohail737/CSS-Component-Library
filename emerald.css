@@ -76,6 +76,7 @@ hr {
   pointer-events: none;
   /* color: var(--white); */
   background-color: var(--light-grey);
+  color:var(--grey)
 }
 
 .btn.outline {
