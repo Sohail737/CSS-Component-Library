@@ -54,7 +54,6 @@ hr {
   padding: 0.5rem;
   line-height: 1.5;
   text-transform: uppercase;
-  outline: none;
   border-radius: 0.3rem;
   /* box-shadow: 0 6px 6px #999; */
   border: solid 0;
@@ -75,7 +74,7 @@ hr {
 
 .btn.disabled {
   pointer-events: none;
-  color: var(--white);
+  /* color: var(--white); */
   background-color: var(--light-grey);
 }
 
@@ -120,6 +119,20 @@ hr {
   color: var(--grey);
 }
 
+.btn.round{
+  border-radius:50%;
+  background-color: var(--white);
+  border:1px solid var(--black);
+  width:2rem;
+  height:2rem;
+  font-size: large;
+  line-height: 0;
+}
+
+.btn.round.disabled{
+  background-color: var(--light-grey);
+  pointer-events: none;
+}
 /* .cta-container {
   width: 500px;
   height: 100px;
