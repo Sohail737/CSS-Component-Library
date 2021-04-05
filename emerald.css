@@ -97,7 +97,7 @@ hr {
 }
 
 .btn.outline.disabled {
-  color: var(--grey);
+  color: var(--black);
   border: 1px solid var(--grey);
   background: transparent;
 }
@@ -116,7 +116,7 @@ hr {
 }
 
 .btn.text.disabled {
-  color: var(--grey);
+  color: var(--black);
 }
 
 .btn.round{
