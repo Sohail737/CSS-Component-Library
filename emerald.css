@@ -99,7 +99,7 @@ hr {
 .btn.outline.disabled {
   color: var(--grey);
   border: 1px solid var(--grey);
-  background-color: grey;
+  background-color:var(--light-grey);
 }
 
 .btn.text {
