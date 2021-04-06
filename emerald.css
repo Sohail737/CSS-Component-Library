@@ -278,7 +278,7 @@ input {
 }
 
 .card.shadow {
-  box-shadow: 0 12px 12px var(--light-grey);
+  box-shadow: 0 12px 12px var(--grey);
   border:none;
 }
 
