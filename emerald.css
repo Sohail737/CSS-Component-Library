@@ -278,7 +278,8 @@ input {
 }
 
 .card.shadow {
-  box-shadow: 0 12px 12px rgb(133, 131, 131);
+  box-shadow: 0 12px 12px var(--light-grey);
+  border:none;
 }
 
 .card-heading {
