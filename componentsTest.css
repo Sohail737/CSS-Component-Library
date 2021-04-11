@@ -103,3 +103,33 @@ hr {
   border:1px solid black;
   position:relative;
 }
+
+.toast-container{
+  width:300px;
+  height: 300px;
+  border:1px solid black;
+  position:relative;
+}
+
+.toast{
+  position: absolute;
+
+}
+
+.toast.success{
+  top:1rem;
+  left:1rem;
+
+}
+
+.toast.warning{
+  top:5rem;
+  left:1rem;
+  
+}
+
+.toast.error{
+  top:9rem;
+  left:1rem;
+  
+}
