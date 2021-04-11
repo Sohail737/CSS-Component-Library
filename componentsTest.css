@@ -123,13 +123,13 @@ hr {
 }
 
 .toast.warning{
-  top:5rem;
+  top:6rem;
   left:1rem;
   
 }
 
 .toast.error{
-  top:9rem;
+  top:11rem;
   left:1rem;
   
 }

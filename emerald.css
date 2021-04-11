@@ -454,11 +454,11 @@ p {
 .toast {
   position: fixed;
   min-width: 15rem;
-  height: 3rem;
+  height: 4rem;
   border: 1px solid black;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: var(--black);
   color: var(--white);
   border-radius: 0.2rem;
