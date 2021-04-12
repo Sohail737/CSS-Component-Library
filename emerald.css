@@ -315,7 +315,7 @@ p {
   margin: 0.5rem;
   /* padding: 0.4rem; */
   position: relative;
-  max-width: 13rem;
+  max-width: 9rem;
   line-height: 0.5;
 }
 
@@ -325,8 +325,17 @@ p {
   height:15rem;
 }
 
+.card-img.horizontal > img {
+  width:100%;
+  object-fit:cover;
+  height:10rem;
+  margin-bottom:0.5rem
+}
+
+
 .card-img.product > img {
   height: 100%;
+
 }
 
 .badge {
