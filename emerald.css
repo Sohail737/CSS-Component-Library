@@ -320,7 +320,9 @@ p {
 }
 
 .card-img > img {
-  width: 100%;
+  wifth:100%;
+  object-fit:cover;
+  height:15rem;
 }
 
 .card-img.product > img {
