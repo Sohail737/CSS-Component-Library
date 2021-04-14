@@ -505,3 +505,7 @@ input {
 .margin-tb {
   margin: 0.5rem 0;
 }
+
+.bold{
+  font-weight:bold;
+}
