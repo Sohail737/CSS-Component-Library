@@ -205,6 +205,8 @@ hr {
   margin: 0.5rem 0;
 }
 
+
+
 /* .modal-content > p,
 input {
   margin: 0.5rem;
@@ -214,6 +216,7 @@ input {
   /* align-self: flex-end;
   display: flex;
   justify-content: flex-end; */
+  margin-top:0.5rem;
 }
 
 /* Input */
