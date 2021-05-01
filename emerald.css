@@ -306,7 +306,7 @@ input {
 
 .card-img {
   position: relative;
-  height: 15rem;
+  height: auto;
 }
 
 .card-img.horizontal {
