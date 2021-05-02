@@ -266,7 +266,7 @@ input {
   /* padding: 0.5rem; */
   max-width: 250px;
   height: auto;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
 }
 
 .card.horizontal {
@@ -286,6 +286,10 @@ input {
 .card.shadow {
   box-shadow: 0 12px 12px var(--grey);
   border: none;
+}
+
+.card-detail{
+  margin:0 0.5rem;
 }
 
 .card-heading {
