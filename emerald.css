@@ -389,6 +389,18 @@ input {
   margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
+.list-item-pills{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.list-item-left>svg{
+  width:1rem;
+  height:1rem;
+}
+
 .list-item > i {
   
   color: var(--primary-color);
